@@ -1,0 +1,19 @@
+name: music_api_client
+description: Network and data layer for the Apple Music top songs API.
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  dio: ^5.9.2
+  logger: ^2.7.0
+  freezed_annotation: ^3.1.0
+  json_annotation: ^4.11.0
+
+dev_dependencies:
+  freezed: ^3.2.5
+  build_runner: ^2.13.0
+  json_serializable: ^6.13.0
+  lints: ^6.0.0
